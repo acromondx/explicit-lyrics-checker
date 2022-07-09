@@ -2,7 +2,7 @@ import csv
 from collections import Counter
 from lyrics_extractor import SongLyrics
 
-ENGINE_ID = "3541b1964697193ac" #Google Custom Search Engine ID
+ENGINE_ID = "*********************" #Google Custom Search Engine ID
 API_KEY = "*********************************" # Google Custom Search API KEY
 
 def lyrics2list(lyrics):
