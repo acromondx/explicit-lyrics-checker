@@ -22,13 +22,13 @@ with open('bad-words.csv', newline='') as inputfile:
         bad_words.append(row[0])
 
 
-hmm = []
+bad_words_list = []
 for i in lyrics_list:
   if i in bad_words:
-    # hmm.append(i.title())
-    hmm.append(i)
+    # bad_words_list.append(i.title())
+    bad_words_list.append(i)
 
-counter_dict= Counter(hmm)
+counter_dict= Counter(bad_words_list)
 
 dict_badwords = {**counter_dict}
 dict_badwords
