@@ -1,5 +1,4 @@
 TODO
 - make telegram bot
-- make tkinter version
-- make CLI version
-- make API
+- make polished CLI version
+- make flutter app
